@@ -1,22 +1,28 @@
+.header {
+  margin: 1px 75px;
+  background-color: #FF6600;
+}
+.title{
+  font-weight: bold;
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+a {
+  text-decoration: none;
+}
 ul {
   margin: 0;
   padding: 0;
-  background-color: FF6600;
-  list-style-type: none;
-  text-align: center;
-  display: inline;
 }
-
 ul li {
+  float: left;
+  margin-left: 5px;
   display: inline;
-  text-decotion: none;
-  }
-
-ul li a{
-
 
 }
-
-ul li a :hover {
-    color: hotpink;
+ul li.login{
+  float: right;
+  margin-right: 5px;
 }
