@@ -42,6 +42,7 @@ ul li {
   float: left;
   margin-left: 6px;
   display: inline-block;
+  text-decoration: none;
 }
 
 a.login {
@@ -54,3 +55,16 @@ img#logo{
   height: 18px;
   margin-left: 1px;
 }
+
+
+
+#articles ol li p {
+	font-size: 12px;
+	margin-top:1px;
+	color: #828282;
+  background-color: #F5F5E8;
+}
+
+span {
+	color: #828282;
+	margin-right: 2px;
